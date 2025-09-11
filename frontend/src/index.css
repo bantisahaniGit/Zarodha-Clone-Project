@@ -24,6 +24,10 @@ code {
 
 #supportHero a{
   color: white;
+
+}
+#supportHero a:hover{
+  color: lightblue;
 }
 
 #supportWrapper{
@@ -38,4 +42,35 @@ code {
   font-size: 20px;
   border-radius: 10px;
   border: none;
+}
+
+#sticky-top{
+  margin-top: 10px;
+  background-color:bisque;
+  position: sticky;
+  top: 0;
+  
+  
+}
+
+#navLink li:hover{
+  opacity: 0.5;
+}
+.noUnderline a{
+  text-decoration: none;
+}
+
+#universe img{
+  height: 80px;
+  width: 150px;
+}
+
+#homelogo{
+  margin-left: 0px;
+}
+#navLink{
+  margin-right: 10px;
+}
+a:hover{
+  color: purple;
 }

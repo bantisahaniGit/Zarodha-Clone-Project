@@ -19,7 +19,7 @@ function Pricing() {
         <div className="col-6  mb-5">
           <div className="row text-center">
             <div className="col p-3 border">
-              <h1 className="mb-3">₹0</h1>
+              <h1 className="mb-3 fs-2"><i class="fa fa-inr" aria-hidden="true"></i>0</h1>
               <p>
                 Free equity delivery and
                 <br />
@@ -27,7 +27,7 @@ function Pricing() {
               </p>
             </div>
             <div className="col p-3 border">
-              <h1 className="mb-3">₹20</h1>
+              <h1 className="mb-3 fs-2"><i class="fa fa-inr " aria-hidden="true"></i>20</h1>
               <p>Intraday and F&O</p>
             </div>
           </div>

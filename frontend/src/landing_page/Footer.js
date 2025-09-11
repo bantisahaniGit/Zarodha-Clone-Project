@@ -11,8 +11,8 @@ function Footer() {
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
           </div>
-          <div className="col">
-            <p>Company</p>
+          <div className="col noUnderline">
+            <p >Company</p>
             <a href="">About</a>
             <br />
             <a href="">Products</a>
@@ -30,7 +30,7 @@ function Footer() {
             <a href="">Zerodha cares (CSR)</a>
             <br />
           </div>
-          <div className="col">
+          <div className="col noUnderline">
             <p>Support</p>
             <a href="">Contact</a>
             <br />
@@ -43,7 +43,7 @@ function Footer() {
             <a href="">Downloads & resources</a>
             <br />
           </div>
-          <div className="col">
+          <div className="col noUnderline">
             <p>Account</p>
             <a href="">Open an account</a>
             <br />

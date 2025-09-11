@@ -1,18 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 function Navbar() {
   return (
     <nav
-      class="navbar navbar-expand-lg border-bottom"
-      style={{ backgroundColor: "#FFF" }}
+      class="navbar navbar-expand-lg border-bottom sticky-top"
+      id="sticky-top"
     >
       <div class="container p-2">
-        <Link class="navbar-brand" to="/">
+        <Link class="navbar-brand" to="/" id="homelogo">
           <img
             src="media/images/logo.svg"
-            style={{ width: "25%" }}
+            style={{ width: "20%" }}
             alt="Logo"
           />
         </Link>
@@ -27,9 +26,15 @@ function Navbar() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <form class="d-flex" role="search">
-            <ul class="navbar-nav mb-lg-0">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <div id="link-hoverEffect" class="d-flex">
+            <ul id="navLink" class="navbar-nav mb-lg-0">
+              <li>
+                <Link class="navbar-brand" to="/">
+                  <i class="fa fa-home text-bold" aria-hidden="true"></i>&nbsp;
+                  Home
+                </Link>
+              </li>
               <li class="nav-item">
                 <Link class="nav-link active" aria-current="page" to="/signup">
                   Signup
@@ -56,7 +61,7 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-          </form>
+          </div>
         </div>
       </div>
     </nav>
