@@ -19,7 +19,7 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-      <img src="logo.png" style={{ width: "50px" }} />
+      <img src="logo (1).png" style={{ width: "50px" }} alt="logo" />
       <div className="menus">
         <ul>
           <li>
@@ -47,11 +47,11 @@ const Menu = () => {
           <li>
             <Link
               style={{ textDecoration: "none" }}
-              to="/holdings"
-              onClick={() => handleMenuClick(2)}
+              to="/holding"
+              onClick={() => handleMenuClick(3)}
             >
-              <p className={selectedMenu === 2 ? activeMenuClass : menuClass}>
-                Holdings
+              <p className={selectedMenu === 3 ? activeMenuClass : menuClass}>
+                Holding
               </p>
             </Link>
           </li>
@@ -59,9 +59,9 @@ const Menu = () => {
             <Link
               style={{ textDecoration: "none" }}
               to="/positions"
-              onClick={() => handleMenuClick(3)}
+              onClick={() => handleMenuClick(4)}
             >
-              <p className={selectedMenu === 3 ? activeMenuClass : menuClass}>
+              <p className={selectedMenu === 4 ? activeMenuClass : menuClass}>
                 Positions
               </p>
             </Link>
@@ -69,10 +69,10 @@ const Menu = () => {
           <li>
             <Link
               style={{ textDecoration: "none" }}
-              to="funds"
-              onClick={() => handleMenuClick(4)}
+              to="/funds"
+              onClick={() => handleMenuClick(5)}
             >
-              <p className={selectedMenu === 4 ? activeMenuClass : menuClass}>
+              <p className={selectedMenu === 5 ? activeMenuClass : menuClass}>
                 Funds
               </p>
             </Link>

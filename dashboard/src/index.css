@@ -291,7 +291,7 @@ code {
 }
 
 hr {
-  border-left: 0.8px solid rgb(243, 242, 242);
+  border-left: 0.8px solid rgba(20, 49, 194, 0.687);
   height: 30px;
 }
 
@@ -323,8 +323,6 @@ hr {
   font-size: 0.8rem;
   font-weight: 300;
 }
-
-/* sudo selectors */
 
 .menu:hover {
   color: rgb(245, 104, 52);
